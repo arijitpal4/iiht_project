@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/registration.css" type="text/css">
+<title>Payment</title>
+</head>
+<body>
+<div class="container">
+	<div class="col-sm-4"></div>
+	<div class="row">
+		<div class="col-sm-4">
+			<div class="card card-signin my-5">
+				<div class="card-body">
+					<h3 class="card-title text-center">Payment</h3>
+						<form class="form-signin">
+							<div class="form-label-group"></div>
+							 <input type="text" name="lname" id="AsID" class="form-control input-lg" placeholder="Full Name" tabindex="1" required><br /> 
+						   	<input type="text" name="cvv" id="AsID" class="form-control input-lg" placeholder="CVV" tabindex="1" required><br /> 
+						<input type="text" name="cdno" id="AsID" class="form-control input-lg" placeholder="Card Number" tabindex="1" required><br /> 
+						Expiration Date:
+						<select	class="form-control input-lg" id="selectTime">
+								<option value="" disabled selected>Month</option>
+								<option>January</option>
+								<option>February</option>
+								<option>March</option>
+								<option>April</option>
+								<option>May</option>
+								<option>June</option>
+								<option>July</option>
+								<option>August</option>
+								<option>September</option>
+								<option>October</option>
+								<option>November</option>
+								<option>December</option>
+							</select><br /> 
+							<select	class="form-control input-lg" id="selectTime">
+								<option value="" disabled selected>Year</option>
+								<option>2019</option>
+								<option>2020</option>
+								<option>2021</option>
+								</select><br /> 
+							 <br /> <br /> 
+							 <input	type="submit" value="Pay" class="btn btn-success btn-block btn-lg color-b" tabindex="7">
+						</form>
+
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="col-sm-2"></div>
+</div>
+
+	
+</body>
+
+</html>
